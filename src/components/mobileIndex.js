@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MobileHeader from 'mobileHeader';
+import MobileHeader from './mobileHeader';
 
 class MobileIndex extends Component {
     render() {

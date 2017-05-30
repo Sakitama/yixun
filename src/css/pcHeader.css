@@ -1,12 +1,12 @@
-.pc-header .logo {
+.pc-index .pc-header .logo {
     display: flex;
     align-items: center;
 }
-.pc-header .logo img {
+.pc-index .pc-header .logo img {
     width: 48px;
     height: 48px;
 }
-.pc-header .logo span {
+.pc-index .pc-header .logo span {
     font-size: 24px;
     margin-left: 5px;
 }

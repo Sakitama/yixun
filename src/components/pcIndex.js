@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PcHeader from 'pcHeader';
+import PcHeader from './pcHeader';
 
 class PcIndex extends Component {
     render() {
