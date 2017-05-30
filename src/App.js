@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import PcHeader from './components/pcHeader';
-import MobileHeader from './components/mobileHeader';
+import PcIndex from './components/pcIndex';
+import MobileIndex from './components/mobileIndex';
 import MediaQuery from 'react-responsive';
 
 class App extends Component {
@@ -8,10 +8,10 @@ class App extends Component {
         return (
             <div className="App">
                 <MediaQuery minDeviceWidth={1224}>
-                    <PcHeader />
+                    <PcIndex />
                 </MediaQuery>
                 <MediaQuery maxDeviceWidth={1224}>
-                    <MobileHeader />
+                    <MobileIndex />
                 </MediaQuery>
             </div>
         );
