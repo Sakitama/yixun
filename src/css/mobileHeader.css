@@ -1,0 +1,14 @@
+.mobile-header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #2db7f5;
+}
+.mobile-header .logo img {
+    width: 48px;
+    height: 48px;
+}
+.mobile-header .logo span {
+    font-size: 24px;
+    margin-left: 5px;
+}
